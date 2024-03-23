@@ -1,4 +1,4 @@
-# Develop AI solutions with Azure OpenAI
+# Develop AI solutions with Azure OpenAI - 04
 
 This repo contains the instructions and assets required to complete the exercises in the [Develop AI solutions with Azure OpenAI](https://learn.microsoft.com/training/paths/develop-ai-solutions-azure-openai/) learning path on Microsoft Learn.
 
