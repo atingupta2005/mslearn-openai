@@ -7,7 +7,9 @@ def main():
         
     try:
         # Get Azure OpenAI Service settings
-        load_dotenv("~/.env")
+        dotenv_path = os.path.expanduser('~/.env') 
+
+load_dotenv(dotenv_path)
         api_base = os.getenv("AZURE_OAI_ENDPOINT")
         api_key = os.getenv("AZURE_OAI_KEY")
         api_version = '2023-06-01-preview'
